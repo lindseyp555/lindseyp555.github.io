@@ -11,7 +11,13 @@ export default function Home() {
                 Lindsey Peterson
               </h1>
               <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-                I'm a recent graduate from the University of Utah pursuing a career in computer science. I started my computing journey as a math major taking a required introductory programming class. I enjoyed it enough that I decided to stick with it.
+                I'm a recent graduate from the University of Utah pursuing a career in computer science. 
+              </p>
+              <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+                I started my computing journey as a math major in a required introductory programming class. I enjoyed it enough that I decided to stick with it.
+              </p>
+              <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+                I have had the privilege of doing an internship at SAi studying various algorithms for half-toning, a technique for representing continuous tone imagery with dots (used in digital printers).
               </p>
             </div>
             <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
