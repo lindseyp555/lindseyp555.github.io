@@ -52,8 +52,8 @@ export default function Home() {
             className="object-contain"
             src="images/Grad_picture.JPG"
             alt="graduation picture"
-            width={700}
-            height={700}
+            width={500}
+            height={500}
           />
         </div>
       </main >
