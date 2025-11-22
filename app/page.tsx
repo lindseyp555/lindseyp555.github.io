@@ -23,7 +23,7 @@ export default function Home() {
               >
                 <Image
                   // className="dark:invert"
-                  src="/images/linkedin.png"
+                  src="images/linkedin.png"
                   alt="LinkedIn logo"
                   width={24}
                   height={24}
@@ -38,7 +38,7 @@ export default function Home() {
               >
                 <Image
                   // className="dark:invert"
-                  src="/images/github.png"
+                  src="images/github.png"
                   alt="GitHub logo"
                   width={24}
                   height={24}
@@ -50,7 +50,7 @@ export default function Home() {
           <Image
             // className="dark:invert"
             className="object-contain"
-            src="/images/Grad_picture.JPG"
+            src="images/Grad_picture.JPG"
             alt="graduation picture"
             width={700}
             height={700}
