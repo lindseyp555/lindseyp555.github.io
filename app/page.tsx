@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -27,7 +26,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
+                <img
                   // className="dark:invert"
                   src="images/linkedin.png"
                   alt="LinkedIn logo"
@@ -42,7 +41,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
+                <img
                   // className="dark:invert"
                   src="images/github.png"
                   alt="GitHub logo"
@@ -53,7 +52,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <Image
+          <img
             // className="dark:invert"
             className="object-contain"
             src="images/Grad_picture.JPG"
