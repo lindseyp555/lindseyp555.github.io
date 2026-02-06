@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="w-full border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-black">
-      <div className="mx-auto max-w-3xl px-6 py-4 flex justify-between items-center">
+      {/* <div className="mx-auto max-w-3xl px-6 py-4 flex justify-between items-center">
         <span className="text-lg font-semibold text-black dark:text-zinc-50">
           Lindsey Peterson
         </span>
@@ -22,7 +22,7 @@ export default function Navbar() {
             Fun
           </Link>
         </div>
-      </div>
+      </div> */}
     </nav>
   );
 }
