@@ -16,7 +16,7 @@ export default function Navbar() {
             Projects
           </Link>
           <a
-            href="/resume.pdf"
+            href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
