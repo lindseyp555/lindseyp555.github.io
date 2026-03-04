@@ -1,12 +1,12 @@
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen justify-center pt-24 bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div className="flex min-h-screen justify-center bg-zinc-50 font-sans dark:bg-black">
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-16 bg-white dark:bg-black sm:items-start">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
             <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-              <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+              <h1 className="max-w-xs text-3xl font-semibold tracking-tight text-black dark:text-zinc-50">
                 Lindsey Peterson
               </h1>
               <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
@@ -16,7 +16,7 @@ export default function Home() {
                 I started my computing journey as a math major in a required introductory programming class. I developed a real passion for the discipline and decided that I wanted it to be my career.
               </p>
               <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-                I have had the privilege of doing an internship at SAi studying various algorithms for half-toning, a technique for representing continuous tone imagery with dots (used in digital printers).
+                I have had the privilege of doing an internship at SAi studying various algorithms for half-toning, a technique for representing continuous tone imagery with dots used in digital printers.
               </p>
             </div>
             <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
@@ -28,7 +28,7 @@ export default function Home() {
               >
                 <img
                   // className="dark:invert"
-                  src="images/linkedin.png"
+                  src="/images/linkedin.png"
                   alt="LinkedIn logo"
                   width={24}
                   height={24}
@@ -43,7 +43,7 @@ export default function Home() {
               >
                 <img
                   // className="dark:invert"
-                  src="images/github.png"
+                  src="/images/github.png"
                   alt="GitHub logo"
                   width={24}
                   height={24}
@@ -55,7 +55,7 @@ export default function Home() {
           <img
             // className="dark:invert"
             className="object-contain"
-            src="images/Grad_picture.JPG"
+            src="/images/Grad_picture.JPG"
             alt="graduation picture"
             width={500}
             height={500}
